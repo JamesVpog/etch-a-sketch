@@ -1,0 +1,26 @@
+body,
+html {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#container {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	max-width: 160px;
+	box-sizing: border-box;
+}
+
+#container div {
+	min-width: 10px;
+	min-height: 10px;
+	box-sizing: border-box;
+	border-right: none;
+}
+
+#container div.last-child {
+	border-right: 1px solid black;
+}
