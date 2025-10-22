@@ -8,17 +8,16 @@ html {
 
 #container {
 	display: flex;
-	align-items: center;
 	flex-wrap: wrap;
-	max-width: 160px;
+	width: 500px;
+	height: 500px;
 	box-sizing: border-box;
 }
 
 #container div {
-	min-width: 10px;
-	min-height: 10px;
 	box-sizing: border-box;
 	border-right: none;
+	flex: 1;
 }
 
 #container div.last-child {
